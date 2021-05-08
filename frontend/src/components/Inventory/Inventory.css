@@ -1,0 +1,51 @@
+.inventory {
+    height: 100%;
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+    font-family: "Poppins";
+}
+
+.upper__inventory {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.upper__inventory div {
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.lower__inventory {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.table__heading {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.table__heading div {
+    width: 12rem;
+}
+
+.search__div {
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.search__div input {
+    width: 100%;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    color: #56CBF9;
+    border: 1px solid #56CBF9;
+}
+
+.search__div input:focus {
+    outline: none;
+}

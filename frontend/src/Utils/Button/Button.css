@@ -1,0 +1,20 @@
+.submit__button {
+    background-color: #56cbf9;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 0.7rem 8rem;
+    margin: 2.5rem auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.red {
+    padding: 0.3rem 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #ff729f;
+    font-size: 1.2rem;
+    margin: 0;
+}

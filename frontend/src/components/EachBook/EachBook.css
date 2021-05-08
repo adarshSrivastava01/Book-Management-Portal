@@ -1,0 +1,40 @@
+.each__book {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    border: 1px solid #56cbf9;
+}
+
+.each__book div:first-of-type {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 3rem;
+}
+
+.each__book div {
+    width: 10rem;
+    overflow: hidden;
+}
+
+.each__book img {
+    width: 100%;
+    height: 100%;
+}
+
+.each__book a {
+    padding: 0.3rem 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.each__book a:nth-of-type(1) {
+    background-color: #56cbf9;
+}
+
+.each__book a:nth-of-type(2) {
+    background-color: #ff729f;
+}

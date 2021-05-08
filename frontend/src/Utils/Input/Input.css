@@ -1,0 +1,19 @@
+.fs {
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.fs label {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.fs input {
+    height: 2.8rem;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+}
